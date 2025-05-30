@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.proyecto.controllador.ClienteController">
+   <children>
+      <Label layoutX="236.0" layoutY="42.0" text="CREACION DE USUARIO" />
+      <TextField fx:id="txtnombre" layoutX="188.0" layoutY="92.0" />
+      <TextField fx:id="txtapellido" layoutX="188.0" layoutY="138.0" />
+      <TextField fx:id="txtidentificacion" layoutX="188.0" layoutY="188.0" />
+      <TextField fx:id="txtcorreo" layoutX="188.0" layoutY="238.0" />
+      <TextField fx:id="txttelefono" layoutX="188.0" layoutY="285.0" />
+      <TextField fx:id="txtdireccion" layoutX="188.0" layoutY="336.0" />
+      <Label alignment="TOP_RIGHT" layoutX="36.0" layoutY="96.0" prefHeight="17.0" prefWidth="134.0" text="NOMBRE:" />
+      <Label alignment="TOP_RIGHT" layoutX="36.0" layoutY="142.0" prefHeight="17.0" prefWidth="134.0" text="APELLIDO:" />
+      <Label alignment="TOP_RIGHT" layoutX="36.0" layoutY="192.0" text="NO. DE IDENTIFICACION:" />
+      <Label alignment="TOP_RIGHT" layoutX="36.0" layoutY="242.0" prefHeight="17.0" prefWidth="134.0" text="CORREO:" />
+      <Label alignment="TOP_RIGHT" layoutX="36.0" layoutY="289.0" prefHeight="17.0" prefWidth="134.0" text="TELEFONO:" />
+      <Label alignment="TOP_RIGHT" layoutX="36.0" layoutY="340.0" prefHeight="17.0" prefWidth="134.0" text="DIRECCION:" />
+      <Button layoutX="389.0" layoutY="105.0" mnemonicParsing="false" onAction="#onGuardarUsuario" prefHeight="25.0" prefWidth="134.0" text="CREAR USUARIO" />
+      <Button layoutX="387.0" layoutY="176.0" mnemonicParsing="false" onAction="#onBuscarUsuario" prefHeight="25.0" prefWidth="138.0" text="BUSCAR USUARIO" />
+      <Button layoutX="385.0" layoutY="247.0" mnemonicParsing="false" onAction="#onGuardarUsuario" text="ACTUALIZAR USUARIO" />
+      <Button layoutX="387.0" layoutY="315.0" mnemonicParsing="false" onAction="#crearCuentaButton" prefHeight="25.0" prefWidth="138.0" text="CREAR CUENTA" />
+   </children>
+</AnchorPane>
